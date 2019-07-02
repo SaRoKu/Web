@@ -1,0 +1,14 @@
+.image-grid {
+
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: repeat(4, 25%);
+	background-color: red;
+	justify-content: space-between;
+}
+
+.image-grid img{
+	
+	height: 100%;
+	width: 100%;
+}
