@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript example</title>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+
+		<p><header><h1>EJERCICIOS</h1></header></p>
+
+		<p><button id="button1">Meses!</button>
+		<button id="button4">Aleatorio!</button>
+		<button id="button5">Dos funciones!</button></p>
+		<p>
+			<input type="number" id="Numero">
+			<button id="button2">Cuadrado!</button>
+			<button id="button3">Es impar?</button>
+		</p>
+
+		<p><input type="number" id="num1">
+		<input type="number" id="num2">
+		<input type="number" id="num3">
+		<input type="number" id="num4">
+		<button id="button6">Mayor Número!</button></p>
+		<script>
+			document.getElementById("button1").onclick = printMeses;
+			document.getElementById("button2").onclick = function(){
+
+				alert("El cuadrado del número es " + squareNumber(document.getElementById("Numero").value));
+			}
+			document.getElementById("button3").onclick = function(){
+
+				if(isOdd(document.getElementById("Numero").value))alert("YES");
+				else alert("NO");
+			}
+			document.getElementById("button4").onclick = function(){
+
+				alert("Numero aleatorio entre 0 y 1: "+ randomNumber());
+			}
+
+			document.getElementById("button5").onclick = firstone;
+			document.getElementById("button6").onclick = function(){
+
+				alert("El numero máximo es: "+ biggest(document.getElementById("num1").value,document.getElementById("num2").value,document.getElementById("num3").value,document.getElementById("num4").value))
+			}
+		</script>
+</body>
+</html>

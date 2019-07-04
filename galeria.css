@@ -1,10 +1,14 @@
+*{
+
+	background-color: rgb(92, 202, 193)
+}
+
 .image-grid {
 
 	display: grid;
-	grid-template-columns: repeat(4, 25%);
-	grid-template-rows: repeat(4, 25%);
-	background-color: red;
-	justify-content: space-between;
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(4,25%);
+	grid-gap: 1rem;
 }
 
 .image-grid img{
