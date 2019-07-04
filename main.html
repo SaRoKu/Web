@@ -7,7 +7,7 @@
 </head>
 <body>
 
-		<p><header><h1>EJERCICIOS</h1></header></p>
+		<p><h1>EJERCICIOS</h1></p>
 
 		<p><button id="button1">Meses!</button>
 		<button id="button4">Aleatorio!</button>
@@ -28,16 +28,16 @@
 			document.getElementById("button2").onclick = function(){
 
 				alert("El cuadrado del número es " + squareNumber(document.getElementById("Numero").value));
-			}
+			};
 			document.getElementById("button3").onclick = function(){
 
 				if(isOdd(document.getElementById("Numero").value))alert("YES");
 				else alert("NO");
-			}
+			};
 			document.getElementById("button4").onclick = function(){
 
 				alert("Numero aleatorio entre 0 y 1: "+ randomNumber());
-			}
+			};
 
 			document.getElementById("button5").onclick = firstone;
 			document.getElementById("button6").onclick = function(){

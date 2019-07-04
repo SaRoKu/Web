@@ -2,7 +2,7 @@ var meses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","
 
 function printMeses(){
 
-	meses.forEach(e => {console.log(e)});
+	meses.forEach(function (e) { console.log(e); });
 }
 
 function squareNumber(num){
@@ -12,7 +12,7 @@ function squareNumber(num){
 
 function isOdd(num){
 
-	return num%2!=0;
+	return num%2!==0;
 }
 
 function randomNumber(){
