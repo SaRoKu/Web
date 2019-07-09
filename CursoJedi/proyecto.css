@@ -1,0 +1,41 @@
+.custom-color{
+
+	background-color: rgb(28, 0, 56)
+}
+
+.orange{
+	color: orange;
+}
+
+.nav-title{
+	font-size: 2rem;
+	align-self: center;
+}
+
+body{
+
+	background-color: #53009c;
+}
+
+main{
+
+	background-color: #26004c;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.top-images{
+
+	height: 6em;
+}
+
+.horizontal-carousel{
+
+	display: flex;
+	justify-content: space-around;
+}
+
+div.top-content{
+
+	padding: 1rem;
+}
