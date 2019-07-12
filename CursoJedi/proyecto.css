@@ -1,41 +1,169 @@
-.custom-color{
+.custom-color {
 
 	background-color: rgb(28, 0, 56)
 }
 
-.orange{
+.orange {
 	color: orange;
 }
 
-.nav-title{
-	font-size: 2rem;
-	align-self: center;
+.logo-container {
+
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 14rem;
+	background: linear-gradient(to bottom, rgba(255,183,0,1) 0%, rgba(255,0,0,1) 65%, rgba(38,0,76,1) 100%);
 }
 
-body{
+.borderR{
+
+	display: inline-block;
+	border: 3px solid #00fdff;
+	border-radius: 5rem;
+	width: 48%;
+	margin: 1rem 0 1rem 0;
+}
+
+.logo {
+
+	align-items: center;
+	font-size: 5rem;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	-webkit-text-stroke: 1px red;
+	text-shadow: 2px 2px 0 #cc006c,4px 4px #900cff,6px 6px 0 #00e7ff, 8px 8px 0 #ff1aa8;
+	box-shadow: 7px 7px 33px 8px rgba(0,0,0,0.71);
+}
+
+body {
 
 	background-color: #53009c;
 }
 
-main{
+/* Remove caret for non input elements */
+
+*{
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;
+}
+
+main {
 
 	background-color: #26004c;
 	margin-left: 10%;
 	margin-right: 10%;
+	box-shadow: 0 0 77px 10px rgba(0,0,0,0.78);
 }
 
-.top-images{
+.carousel {
 
-	height: 6em;
+	height: 10rem;
+	width: 40rem;
 }
 
-.horizontal-carousel{
+.carousel img{
+
+	border-radius: 1rem;
+	height: 100%;
+}
+
+.horizontal-carousel {
 
 	display: flex;
-	justify-content: space-around;
+	align-items: center;
 }
 
-div.top-content{
+.center-title {
+
+	text-align: center;
+}
+
+.title {
+
+	font-weight: 900;
+	font-size: 5rem;
+	color: darkmagenta;
+	-webkit-text-stroke: 3px orange;
+}
+
+div.top-content {
 
 	padding: 1rem;
+}
+
+hr{
+
+	border-color: #900cff;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#container_carousel{
+
+	width: 70%;
+}
+
+.horizontal-carousel .title{
+
+	width: 30%;
+	text-align: center;
+}
+
+nav{
+
+	box-shadow: 0 10px 24px 0 rgba(0,0,0,0.75);
+}
+
+.container{
+
+	text-align: center;
+	font-weight: 900;
+	font-size: 2.5rem;
+	color: orange;
+	-webkit-text-stroke: 2px darkmagenta;
+	font-family: Impact, sans-serif;
+}
+
+/* TEMAS */
+
+.tema i{
+
+	font-size: 4rem;
+}
+
+.tema{
+
+	display: flex;
+	background-color: black;
+	border-radius: 1rem;
+	color: white;
+	opacity: 0.5;
+	height: 10rem;
+	width: 70%;
+	align-items: center;
+	justify-content: center;
+	-webkit-text-stroke: 0 transparent;
+}
+
+.tema:hover{
+
+	opacity: 1;
+}
+
+/* VIDEO */
+
+#video{
+
+	display: flex;
+	justify-content: center;
+}
+
+iframe{
+
+	height: 20rem;
+	width: 40rem;
 }
