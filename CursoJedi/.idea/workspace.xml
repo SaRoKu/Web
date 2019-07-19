@@ -16,23 +16,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proyecto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1641">
-              <caret line="67" column="144" selection-start-line="67" selection-start-column="144" selection-end-line="67" selection-end-column="144" />
-              <folding>
-                <element signature="e#1626#1633#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proyecto2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proyecto2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proyecto.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="75" column="15" lean-forward="true" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+            <state relative-caret-position="413">
+              <caret line="187" column="1" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -43,8 +58,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,12 +77,17 @@
       <find>grid</find>
       <find>container</find>
       <find>c</find>
-      <find>nav</find>
       <find>modal</find>
       <find>justi</find>
       <find>border-rad</find>
       <find>puzz</find>
       <find>hei</find>
+      <find>generos</find>
+      <find>nav</find>
+      <find>main</find>
+      <find>proyec</find>
+      <find>game</find>
+      <find>img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,11 +100,13 @@
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/EjercicioCanvas.html" />
-        <option value="$PROJECT_DIR$/proyecto.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test.css" />
-        <option value="$PROJECT_DIR$/proyecto.css" />
+        <option value="$PROJECT_DIR$/proyecto.js" />
         <option value="$PROJECT_DIR$/proyecto.html" />
+        <option value="$PROJECT_DIR$/proyecto2.js" />
+        <option value="$PROJECT_DIR$/proyecto2.html" />
+        <option value="$PROJECT_DIR$/proyecto.css" />
       </list>
     </option>
   </component>
@@ -176,16 +198,20 @@
       <workItem from="1562849480578" duration="13222000" />
       <workItem from="1562889345434" duration="3702000" />
       <workItem from="1562929824125" duration="1353000" />
-      <workItem from="1562937569128" duration="10580000" />
+      <workItem from="1562937569128" duration="13227000" />
+      <workItem from="1563302165990" duration="906000" />
+      <workItem from="1563365049531" duration="62000" />
+      <workItem from="1563365227997" duration="2577000" />
+      <workItem from="1563536367785" duration="805000" />
+      <workItem from="1563547715779" duration="9652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59298000" />
+    <option name="totallyTimeSpent" value="75947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13036565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -275,41 +301,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="119">
+          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proyecto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="75" column="15" lean-forward="true" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+        <state relative-caret-position="1666">
+          <caret line="98" column="1" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
+          <folding>
+            <element signature="e#89#4764#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proyecto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1641">
-          <caret line="67" column="144" selection-start-line="67" selection-start-column="144" selection-end-line="67" selection-end-column="144" />
-          <folding>
-            <element signature="e#1626#1633#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proyecto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="187" column="1" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
         </state>
       </provider>
     </entry>

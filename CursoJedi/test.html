@@ -1,17 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/e43c898f27.js"></script>
 	<link rel="stylesheet" href="test.css">
-	<title>TEST</title>
+	<title>WebGames</title>
 </head>
 <body>
-<nav>
- Nav
-</nav>
-<main>
 
-</main>
+<div>
+
+	<nav class="navbar navbar-expand-lg custom-color sticky-top orange">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a href="#generos" class="nav-link ">Generos<span class="sr-only"></span></a>
+			</li>
+			<li class="nav-item">
+				<a href="#video" class="nav-link ">Videos<span class="sr-only"></span></a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link ">RANDOM!!!!<span class="sr-only"></span></a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link ">About us<span class="sr-only"></span></a>
+			</li>
+		</ul>
+		<i class="fas fa-user"></i>
+		<i class="fas fa-dice"></i>
+		<i class="fas fa-cog"></i>
+	</nav>
+
+	<!-- FIN DE LA BARRA DE NAVEGACION -->
+
+	<main class="orange">
+		<div class="logo-container">
+			<div class="logo custom-color borderR">
+				<p>WEBGAMES</p>
+			</div>
+		</div>
+		<hr>
+		<!-- FIN DEL LOGO-->
+
+		<div class="horizontal-carousel top-content">
+			<div class="title">TOP</div>
+
+			<div id="container_carousel">
+				<div class="carousel slide" data-ride="carousel" id="TopCarousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row">
+								<div class="col">
+									<a href="https://agar.io"><img src="https://www.movilzona.es/app/uploads/2016/04/agar-io-b.jpg" class=" d-block w-100" alt=".."></a>
+								</div>
+								<div class="col">
+									<a href="http://slither.io"> <img
+										src="https://lh3.googleusercontent.com/Jjm072EaR2y01A-Z19UVR6UqBspEZxWP11sGmFElI9782MebzsOqFKskL00PJ-HpUJ-P"
+										class=" d-block w-100" alt=""></a>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col">
+									<a href="http://paper.io"> <img src="http://paper-io.com/images/paper-new.png" class="d-block w-100" alt=".."></a>
+								</div>
+								<div class="col">
+									<a href="https://hole-io.com"> <img src="https://hole-io.com/images/hole-share.jpg" class="d-block w-100" alt=".."></a>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col">
+									<a href="https://diep.io"><img src="http://iogames.space/sites/default/files/diep.jpg" alt="No disponible" class="d-block w-100"></a>
+								</div>
+								<div class="col">
+									<a href="https://cursors.io"><img src="https://i.ytimg.com/vi/IrmXC7aSUA0/mqdefault.jpg" alt="No disponible" class="d-block w-100"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#TopCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#TopCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- FIN DE LA FILA TOP -->
+		<hr>
+		<div class="top-content " id="generos">
+			<div class="title center-title">GENEROS</div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								AVENTURA / ACCION
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="tema">
+								<i class="fas fa-fighter-jet"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								PLATAFORMAS
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="tema">
+								<i class="fas fa-cube"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								PUZZLES
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="tema">
+								<i class="fas fa-puzzle-piece"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								ESTRATEGIA
+							</div>
+						</div>
+						<div class="row justify-content-center">
+							<div class="tema">
+								<i class="fas fa-chess"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="top-content ">
+			<div class="title center-title">TRAILERS</div>
+			<div id="video">
+
+				<iframe src="https://www.youtube.com/embed/f30aai0tfIM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		<hr>
+		<!--PLACE HOLDER <label>
+			<input type="text" placeholder="PON TEXTO">
+		</label>-->
+	</main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
